@@ -5,9 +5,11 @@ using base from [gpxparser](http://sourceforge.net/projects/gpxparser/)
 
 Follows [GPX schema version 1.1](http://www.topografix.com/gpx/1/1/)
 
+## Building
+By using `./gradlew build` gradle will build the library, sources and javadoc in `build/libs`.
 
 ## Example Uses:
-# Gradle
+### Gradle
 Add this snippet to your `build.gradle`, it includes javadoc and sources:
 ```groovy
 dependencies {
