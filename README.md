@@ -7,7 +7,14 @@ Follows [GPX schema version 1.1](http://www.topografix.com/gpx/1/1/)
 
 
 ## Example Uses:
-include jar to your classpath [Download JAR](https://github.com/ThomasDaheim/gpx-parser/files/1733894/gpx-parser-1.2.jar.zip)
+# Gradle
+Add this snippet to your `build.gradle`, it includes javadoc and sources:
+```groovy
+dependencies {
+  compile 'com.github.4rne:gpx-parser:master'
+}
+```
+Or download this jar-library and include it into your classpath: [Download JAR](https://github.com/ThomasDaheim/gpx-parser/files/1733894/gpx-parser-1.2.jar.zip)
 
 To read GPX file:
 
